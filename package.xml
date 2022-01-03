@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd"
+            schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>throughput_test</name>
-  <version>0.17.0</version>
-  <description>Examples for composing multiple nodes in a single process.</description>
-  <maintainer email="mabel@openrobotics.org">Mabel Zhang</maintainer>
-  <maintainer email="michael.jeronimo@openrobotics.org">Michael Jeronimo</maintainer>
+  <version>0.1.0</version>
+  <description>ROS 2 performance tests for high-bandwidth topics.</description>
+  <maintainer email="eborghi@ekumenlabs.com">Emiliano Borghi</maintainer>
   <license>Apache License 2.0</license>
-  <author email="dthomas@osrfoundation.org">Dirk Thomas</author>
+  <author email="eborghi@ekumenlabs.com">Emiliano Borghi</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
