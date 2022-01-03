@@ -1,0 +1,52 @@
+realsense:
+  ros__parameters:
+    # https://github.com/IntelRealSense/realsense-ros/tree/foxy#available-parameters
+    device_type: 'd435'
+    serial_no: ''
+    usb_port_id: ''
+
+    color_fps: 30.0
+    color_height: 720
+    color_width: 1280
+    color_qos: "SENSOR_DATA"
+
+    depth_fps: 30.0
+    depth_height: 720
+    depth_width: 1280
+    depth_qos: "SENSOR_DATA"
+
+    infra_height: 720
+    infra_width: 1280
+    infra_qos: "SENSOR_DATA"
+
+    accel_fps: 0.0
+    confidence_fps: 30.0
+    gyro_fps: 0.0
+    infra_fps: 30.0
+
+    enable_accel: false
+    enable_color: true
+    enable_confidence: true
+    enable_depth: true
+    enable_fisheye1: false
+    enable_fisheye2: false
+    enable_gyro: false
+    enable_infra1: true
+    enable_infra2: true
+
+    enable_pointcloud: false
+    filters: ''
+
+    align_depth: false
+
+    pointcloud_texture_index: 0
+    pointcloud_texture_stream: RS2_STREAM_COLOR
+
+    # Fails for intra-process: https://github.com/IntelRealSense/realsense-ros/pull/1904
+    publish_tf: false
+
+    enable_pose: false
+    publish_odom_tf: false
+
+    # Will publish topics from rosbag file.
+    rosbag_filename: ''
